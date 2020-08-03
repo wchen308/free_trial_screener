@@ -1,2 +1,2 @@
 # Image Folder
-This folder is to store image in the jupyter notebook.
+This folder is to store images in the jupyter notebook.
