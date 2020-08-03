@@ -46,5 +46,8 @@ Here are the 3 evaluation metrics that are used in this experiment:
 **Retention**: number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout.(dmin= 0.01)
 
 ## Baseline Value
-Here comes rough estimates of baseline values for this experiment. Please check the ipynb in this folder for analysis including **sample size**, **duration and exposure**, **sanity check**, **effect size tests** and **sign test**.
+Here comes rough estimates of baseline values for this experiment.
 ![Baseline Value](img/baseline_value.png)
+
+## Analysis
+Please feel free to check the ipynb in this folder for analysis including **sample size**, **duration and exposure**, **sanity check**, **effect size tests** and **sign test**.
