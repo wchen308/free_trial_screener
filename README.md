@@ -31,7 +31,7 @@ Here is a funnel of a user behavior in this case:
 5. leave or remain in this course in free trial and pay (Payments)
 
 In short, 2 effects are expected from a free trial screener:
-1. **churn rate** during free trial due to not enough time is expected to <font color = red>reduce</font> with a free trial screener
+1. **Churn rate** during free trial due to not enough time is expected to <font color = red>reduce</font> with a free trial screener
 2. **Retention rate** during free trial is expected to <font color = red>increase</font> with a free trial screener, since the number of people in step 4 is expected to reduce and number of people that remain in this course is expected to remain unchanged.
 
 Hence, churn rate can be quantified as conversion from step 2 to step 4 and step 5. Retention rate can be quantified as conversion from step 4 to step 5.
@@ -44,3 +44,7 @@ Here are the 3 evaluation metrics that are used in this experiment:
 **Net conversion**: number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button.(dmin= 0.0075)
 
 **Retention**: number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout.(dmin= 0.01)
+
+## Baseline Value
+Here comes rough estimates of baseline values for this experiment. Please check the ipynb in this folder for analysis including **sample size**, **duration and exposure**, **sanity check**, **effect size tests** and **sign test**.
+![Baseline Value](img/baseline_value.png)
